@@ -42,7 +42,7 @@ export function Menu() {
           bottom: "16%",
           backgroundImage: `url("/Genshin/jump.png")`
         }} onClick={login ? () => {
-          window.open('https://github.com/Titlecan/Genshin-Start);
+          window.open('https://github.com/Titlecan/Genshin-Start');
         } : () => { }}></button>
       </div>
       {doorCreate && (
