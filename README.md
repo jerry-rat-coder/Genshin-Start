@@ -25,6 +25,6 @@ npm start
 Public repository · Forked from [gamemcu/www-genshin](https://github.com/gamemcu/www-genshin)
 
 ## 预计未来新特性
-1.添加七元素加载页面
-2.实现游戏跳转
-3.咕咕咕～
+ 1.添加七元素加载页面（计划中）
+ 2.[实现跳转游戏](https://github.com/Titlecan/Start-Yuanshen)（已完成）
+ 3.咕咕咕～
