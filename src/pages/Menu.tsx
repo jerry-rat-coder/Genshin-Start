@@ -27,12 +27,6 @@ export function Menu() {
       <div className="menu-12" style={{ opacity: menu12 ? "0.9" : "0" }}></div>
       <div className="menu-login" style={{ opacity: login ? "1" : "0" }}>
         <div className="background"></div>
-        <div className="menu-description">
-          <div className="description">
-          <p>使用说明：点击右下角的门进行———原神，启动！ .</p>
-           <p>免责声明：本项目仅为WebGL技术展示，详情按箭头图标，或查看源代码。</p>
-          </div>
-        </div>
         <button className="ClickMe" onClick={login ? () => {
           gameManager.emit("button-start-click");
           gameManager.emit("start")
