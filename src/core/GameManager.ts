@@ -52,8 +52,7 @@ class GameManager extends EventEmitter {
     }
 
     public restart() {
-        // location.reload();
-        window.location.href = 'https://start.genshin.titlecan.cn/'
+        location.reload();
     }
     public task(handle: Function | Promise<any>, props = {}) {
         return this.taskManger.task(handle, props);
