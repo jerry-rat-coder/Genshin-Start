@@ -38,12 +38,6 @@ export function Menu() {
           gameManager.emit("start")
           setLogin(false)
         } : () => { }}></button>
-        <button className="ClickMe" style={{
-          bottom: "16%",
-          backgroundImage: `url("/Genshin/jump.png")`
-        }} onClick={login ? () => {
-          window.open('https://github.com/Titlecan/Genshin-Start');
-        } : () => { }}></button>
       </div>
       {doorCreate && (
         <div className="menu-doorCreate-content" style={{ opacity: openDoor ? "0" : "1" }}>
